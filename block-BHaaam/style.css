@@ -29,74 +29,61 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* main css */
-body{
-    background-color: bisque;
-    color: black;
-}
-
-h1{
-    text-align: center;
-    font-size: 45px
-
-}
-a{
-    padding: 20px;
-}
-h2{
-    font-size: 30px;
-}
-section{
-    display: inline;
-}
-aside{
-    float: left;
-}
-
-article{
-    margin-left:150px ;
-    float: right;
-}
-
 img{
     width:200px;
     height: 150px;
 }
-
+.home{
+    background-color: cyan;
+}
 .about{
-    background-color: lightpink
+    background-color: thistle;
+}
+.contact{
+    background-color: sandybrown;
+}
+.main header{
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: lemonchiffon;
+
+}
+h1{
+    text-align:center ;
+    font-size: 36px;
+    margin-bottom: 24px;
+    padding: 24px;
+
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 24px;
+    padding: 24px;
+
+}
+.footer{
+    text-align: center;
+    background-color: springgreen;
+    padding: 24px;
+
+}
+article{
+    margin-bottom: 60px;
+}
+p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
 }
 
-.p {
-    float: right;
-}
-button{
-    margin-bottom: 10px;
-    width: 200px;
-    height: 20px;
-}
-.choco{
-    background-color:blanchedalmond ;
-}
-.vani{
-    background-color: cornsilk;
-}
 
 
+nav{
+    text-align: center;
+}
+
+a{
+    padding: 10px;
+}
