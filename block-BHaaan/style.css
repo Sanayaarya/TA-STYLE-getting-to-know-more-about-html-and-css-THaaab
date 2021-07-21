@@ -58,7 +58,7 @@ nav{
 }
 img{
     width: 400px;
-    height: 200px;
+    height: 300px;
 
 
     
@@ -95,8 +95,12 @@ small{
     text-align: center;
 }
 .footer{
-    background-color: mediumorchid;
+    background-color:rgb(144,144,231);
     text-align: center;
+}
+.cat a{
+    padding: 20px;
+    text-decoration: none;
 }
 
 
